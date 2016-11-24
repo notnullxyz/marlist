@@ -8,6 +8,7 @@ class Node {
      * @param next The address of the next node.
      */
     constructor(data) {
+        this.time = new Date().getTime();
         this.data = data;
     }
 }
