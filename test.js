@@ -20,3 +20,15 @@ for (let n = 0; n <= ITERS; n++) {
 
 console.log('------------ searching at position 2---------------');
 console.log(JSON.stringify(list.search(2)));
+
+console.log('------------ full list ---------------');
+console.log(JSON.stringify(list));
+console.log(' ');
+
+console.log('------------ deleting at position 2---------------');
+console.log(JSON.stringify(list.delete(2)));
+
+console.log('------------ full list ---------------');
+console.log(JSON.stringify(list));
+console.log(' ');
+
