@@ -17,3 +17,6 @@ for (let n = 0; n <= ITERS; n++) {
     console.log(JSON.stringify(list));
     console.log(' ');
 }
+
+console.log('------------ searching at position 2---------------');
+console.log(JSON.stringify(list.search(2)));

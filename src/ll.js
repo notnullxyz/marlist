@@ -32,6 +32,23 @@ class Marlist {
         return newNode;
     }
 
+    search(pos) {
+        let currentNode = this.head;
+        let count = 1;
+
+        // non-existent position
+        if (this.length === 0 || pos < 1 || pos > this.length) {
+            throw new Error('Invalid Node Position', position);
+        }
+
+        while (count < pos) {
+            currentNode = currentNode.next;
+            count++;
+        }
+
+        return currentNode;
+    }
+
 
 
 }
